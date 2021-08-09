@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    background-color: white;
+    width: 100%;
+
+    
+
+    
+}
+
+/******************************************HEADER************************************/
+
+header{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    padding: 30px 15px 30px 600px;
+    background-color: #FCD8D4;
+    position: fixed;
+    box-shadow: 0px 0px 15px hotpink;
+
+}
+
+#menu{
+    /*border: 1px solid red;*/
+    padding:5px
+}
+
+ul, li{
+display: inline;
+list-style: none;  
+text-align: center;
+text-transform: uppercase;
+padding: 15px 10px;
+word-spacing: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: hotpink;
+    
+    
+}
+
+
+.contacto{
+    background-color: #F5C6AA;
+    border-radius: 40px;
+    transition: 0.2s;
+    padding: 10px 30px 10px 30px;
+}
+
+.contacto:hover{
+    background-color: white;
+    transition: 0.3s;
+    
+}
+
+/*PREGUNTAR SOBRE ESTO*/
+/******************************************FIN DE HEADER******************************/
+
+
+/******************************************PRESENTACION************************************/
+#inicio{
+    background-color: white;
+    
+}
+
+#inicio > div{
+    /*width: 50%;*/
+    width: 500px;
+    float: left;
+    
+    
+    
+
+}
+
+.presentacion{
+    /*width: 100%;*/
+    display: block;
+    margin: 0 auto;
+    padding: 150px ;
+    padding-right: 0;
+    padding-top: 200px;
+    padding-left: 130px;
+    background-color: white;
+}
+
+ .nombre{
+    
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #FFBCBC;
+    
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+}
+
+
+.imagen > img{
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    padding-bottom: 6rem;
+    padding-top: 7rem;
+    background-color: white;
+    
+}
+
+.boton{
+    background-color:#F5C6AA;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 100px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    
+}
+
+.boton:hover{
+    background-color: rgb(230, 209, 209);
+    transition: 0.3s;
+    color: black;
+}
+/****************************************** FIN DE PRESENTACION************************************/
+
+/******************************************CONOCIMIENTOS************************************/
+.conocimientos{
+    
+    background-color: #F5C6AA;
+    padding: 100px 10px 10px 10px;
+    
+}
+
+.titulo1{
+    /*width: 100%;*/
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.parrafo{
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+#cajapadre{
+    background-color: #F5C6AA;
+    width: 100%;
+
+}
+
+.cajas{
+    background-color: #F5C6AA;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+    width: 73%;
+    margin: 3% auto;
+    padding-bottom: 5%;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.box1:hover{
+    color:gray;
+    border: 1px solid grey;
+    
+}
+/******************************************FIN DE CONOCIMIENTOS************************************/
+
+/******************************************FRASE************************************/
+
+#frase{
+    text-align: center;
+    background-color:#CDBBA7;
+    padding:100px;
+    /*width: 85%;*/
+}
+.comilla{
+    font-size: 80px;
+    padding-top: 50px;
+    padding: 50px;
+    
+}
+
+.autor{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.comilla h6{
+    font-family:'Style Script', cursive;
+}
+/******************************************FIN DE FRASE************************************/
+
+/******************************************PROYECTOS************************************/
+.proyectos{
+    
+    background-color: #F5C6AA;
+    margin: 0 auto;
+}
+
+.proyectos > h1{
+    font-size: 50px;
+    margin: 0 auto;
+
+}
+
+.textproyectos{
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#cajapadre2{
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+    background-color: #F5C6AA;
+    
+}
+
+/*#cajapadre2 > div{
+    text-align: center;
+    margin: 50px;
+    width: 85%;
+     
+    /*padding: 100px 227px 30px ;
+    
+}*/
+
+.cajas2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 5%;
+    justify-content: center;
+}
+
+.caja-1{
+    border: 1px solid hotpink;
+    background-color: rgb(241, 240, 240);
+    padding: 60px;
+    width: 20%;
+    height: 150px;
+    margin: 1%;
+    border-radius: 10px;
+    
+     
+    
+} 
+
+.caja-1:hover{
+    color:grey;
+    border: 1px solid grey;
+    align-items: center;
+    
+    
+}
+
+/******************************************FIN DE PROYECTOS************************************/
+
+/******************************************CONTACTAME************************************/
+#contactame{
+
+    display: flex;
+    
+    padding: 100px;
+    text-align: left;
+    background-color: #CDBBA7;
+    width: 85%;
+}
+
+.iconos-contactame{
+    font-size: 25px;
+    color: #F5C6AA;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.iconos-contactame:hover{
+    color: black;
+    background-color: hotpink ;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+.socialmedia{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+.socialmedia:hover{
+    color: hotpink;
+}
+
+
+.columna1{
+    width: 100%;
+    margin:0 auto;
+    padding: 100px ;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.contactame{
+    color: hotpink;
+    font-size: 45px;
+    font-family: 'STIX Two Math', serif;
+    
+}
+
+
+/******************************************CONTACTAME************************************/
+
+/**********************************FORMULARIO***********************/
+
+.columna2{
+    background-color: white;
+    width:100%;
+    border-radius: 10px;
+    padding: 60px;   
+}
+
+.escribime{
+    color: hotpink;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'STIX Two Math', serif;
+}
+
+.label-size{
+    font-size: 20px;
+    padding-bottom: 0;
+
+}
+
+.nameandlastname{
+    display: flex;
+    flex-direction:column;
+    
+   
+}
+
+
+.input-nombres{
+    border-radius: 30px;
+    padding: 8px;
+    width: 170px;
+    border:1px solid #efef;
+    background-color: #ededed;
+}
+
+.input-apellidos{
+    border-radius: 30px;
+    padding: 8px;
+    border:1px solid #efef;
+    background-color: #ededed;
+}
+
+.input-email{
+    border-radius: 30px;
+    padding: 8px 8px 8px  8px;
+    border:1px solid #efef;
+    background-color: #ededed;
+
+}
+
+.mensajes{
+    border-radius: 15px;
+    padding: 70px;
+    width: 250px;
+    border:1px solid #efef;
+    background-color: #ededed;
+    
+}
+input:focus, textarea:focus{
+    box-shadow: 0px 0px 5px hotpink;
+    border: 1px solid hotpink;
+    
+}
+
+
+.btn{
+    width: 130px;
+    padding: 20px;
+    border-radius:30px;
+    border:1px solid #efef;
+    background-color: #F5C6AA;
+   font-size: 1rem;
+}
+/**********************************FORMULARIO***********************/
+
+/******************************************FOOTER************************************/
+footer{
+    width: 85%;
+    background-color:#FCD8D4;
+    padding: 100px 100px ;
+    text-align: center;
+    
+
+}
+.negro:hover{
+    color: black;
+}
+
+.iconosfooter{
+    display: block;
+    padding-top: 30px;
+    margin: 10px;
+   
+}
+
+.icon-socialmedia{
+    font-size: 30px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 10px;
+}
+
+/******************************************FIN DE FOOTER************************************/
+
+
+    
+@media (max-width: 1024px){
+    header {
+        display: none;
+    }
+    #inicio{
+        flex-direction: column;
+    }
+
+    #intro > div{
+        text-align: center;
+        width: 70%;
+    }
+    
+
+   
+} 
+@media (max-width: 768px){
+    footer{
+        display: none;
+    }
+   
+  
+} 
+@media (max-width: 480px){
+    #cajapadre .titulo1{
+        background-color: #F5C6AA;
+        text-align: center;
+        width: 100%;
+    }
+
+} 
+@media (max-width: 320px){
+
+}
