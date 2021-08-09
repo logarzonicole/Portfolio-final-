@@ -257,24 +257,29 @@
                 <h1 class="escribime"> ESCRIBIME</h1>
                 <form action="procesa.php" method="POST">
                     <div class="nameandlastname">
-                        <label class="label-size"> <b>Nombre *</b></label>
+                        
+                        <div class="nombreformulario">
+                        <label class="label-size"> <b>Nombre*</b></label>
                         <input class="input-nombres" type="text" name="nombre" maxlength="15"
                             placeholder="Ingrese su nombre" required>
+                    </div>
 
-                        <label class="label-size"> <b>Apellido *<b></label>
+                    <div class="apellidoformulario">
+                        <label class="label-size"> <b>Apellido*<b></label>
                         <input class="input-apellidos" type="text" name="apellido" maxlength="15"
                             placeholder="Ingrese su apellido" required>
                     </div>
+                    </div>
 
                     <div>
-                        <label class="label-size"> <b>Email *</b></label> <br>
+                        <label class="label-size"> <b>Email*</b></label> <br>
                         <input class="input-email" type="email" name="mail" maxlength="30"
                             placeholder="Ingrese su correo" required>
                     </div>
 
 
 
-                    <label class="label-size">Mensajes *</label> <br>
+                    <label class="label-size">Mensajes*</label> <br>
                     <textarea class="mensajes" name="mensaje" placeholder="Escriba un mensaje aqui" required></textarea>
                     <br>
                     <br>

@@ -149,7 +149,7 @@ p{
 .conocimientos{
     padding-top: 1em;
     background-color: #F5C6AA;
-    padding: 100px 10px 10px 10px;
+    padding: 100px 10px 0px 10px;
     
 }
 
@@ -157,7 +157,6 @@ p{
     /*width: 100%;*/
     text-align: center;
     font-size: 50px;
-    
     padding-bottom: 1rem;
 
 }
@@ -171,6 +170,7 @@ p{
 #cajapadre{
     background-color: #F5C6AA;
     width: 100%;
+    border-bottom: 1px solid #F5C6AA;
 
 }
 
@@ -212,6 +212,7 @@ p{
     text-align: center;
     background-color:#CDBBA7;
     padding:100px;
+    height: 100%;
     /*width: 85%;*/
 }
 .comilla{
@@ -255,6 +256,7 @@ p{
     width: 100%;
     text-align: center;
     padding-top: 6em;
+    padding-bottom: 6em;
     background-color: #F5C6AA;
     
 }
@@ -274,6 +276,7 @@ p{
     width: 90%;
     margin: 0 5%;
     justify-content: center;
+    justify-content: space-between;
 }
 
 .caja-1{
@@ -318,7 +321,7 @@ p{
 }
 
 
-.iconos-contactame:hover{
+tr:hover .iconos-contactame{
     color: black;
     background-color: hotpink ;
     border-radius: 50%;
@@ -374,14 +377,20 @@ p{
 .label-size{
     font-size: 20px;
     padding-bottom: 0;
+    
 
 }
 
 .nameandlastname{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     
    
+}
+.nombreformulario .apellidoformulario{
+    display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -447,18 +456,26 @@ footer{
 }
 
 .iconosfooter{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-top: 30px;
     margin: 10px;
-   
+    list-style: none;
+}
+
+.iconosfooter > a{
+    text-decoration: none;
+
 }
 
 .icon-socialmedia{
-    font-size: 30px;
-    border-radius: 50%;
+    font-size: 25px;
     align-items: center;
     margin: 10px;
+    
 }
+
 
 /******************************************FIN DE FOOTER************************************/
 
