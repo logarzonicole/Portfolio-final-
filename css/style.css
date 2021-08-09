@@ -147,7 +147,7 @@ p{
 
 /******************************************CONOCIMIENTOS************************************/
 .conocimientos{
-    
+    padding-top: 1em;
     background-color: #F5C6AA;
     padding: 100px 10px 10px 10px;
     
@@ -157,8 +157,9 @@ p{
     /*width: 100%;*/
     text-align: center;
     font-size: 50px;
-    padding-top: 2rem;
+    
     padding-bottom: 1rem;
+
 }
 
 .parrafo{
@@ -176,7 +177,7 @@ p{
 .cajas{
     background-color: #F5C6AA;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;  
     width: 73%;
     margin: 3% auto;
@@ -189,11 +190,13 @@ p{
     border: 1px solid pink;
     background-color: rgb(255, 255, 255);
     padding: 60px;
-    width: 150px;
+    width: 20%;
     height: 150px;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    margin-top: 1.5%;
    
 }
 .box1:hover{
@@ -237,18 +240,21 @@ p{
 .proyectos > h1{
     font-size: 50px;
     margin: 0 auto;
+    
 
 }
 
 .textproyectos{
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
+
+    
 }
 
 #cajapadre2{
     width: 100%;
     text-align: center;
-    border: 1px solid red;
+    padding-top: 6em;
     background-color: #F5C6AA;
     
 }
