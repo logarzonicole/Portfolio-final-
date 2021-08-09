@@ -531,6 +531,29 @@ footer{
     .imagenpresentacion{
         margin: 0 auto;
     }
+
+    #contactame{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    .columna1 {
+        width: 50%;
+        
+    }
+
+    .columna2{
+        width: 50%;
+        margin-left: 35px;
+        padding-right: 20%;
+        
+    }
+
+    footer{
+        width: 74%;
+    }
 } 
 
 @media (max-width: 480px){
