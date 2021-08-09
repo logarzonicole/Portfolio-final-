@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     
+    
 
 }
 
 body{
     background-color: white;
     width: 100%;
+    
 
     
 
@@ -72,30 +74,26 @@ a:hover{
 
 
 /******************************************PRESENTACION************************************/
+
+
 #inicio{
-    background-color: white;
-    
-}
-
-#inicio > div{
-    /*width: 50%;*/
+    /*width: 50%;
     width: 500px;
-    float: left;
-    
-    
-    
-
+    float: left;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
 }
 
 .presentacion{
-    /*width: 100%;*/
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     padding: 150px ;
     padding-right: 0;
     padding-top: 200px;
-    padding-left: 130px;
-    background-color: white;
+    background-color: white; 
+    
 }
 
  .nombre{
@@ -117,12 +115,12 @@ p{
 
 
 .imagen > img{
-    margin: 0 auto;
     display: block;
     justify-content: center;
     padding-bottom: 6rem;
     padding-top: 7rem;
     background-color: white;
+    
     
 }
 
@@ -306,10 +304,10 @@ p{
 #contactame{
 
     display: flex;
-    padding: 100px;
     text-align: left;
     background-color: #CDBBA7;
-    width: 85%;
+    max-width: 100%;
+    border: 1px solid blue;
 }
 
 .iconos-contactame{
@@ -340,11 +338,13 @@ tr:hover .iconos-contactame{
 
 .columna1{
     width: 100%;
-    margin:0 auto;
+    margin:3% auto;
+    margin-left: 5%;
     padding: 100px ;
     background-color: white;
     border-top-left-radius:15px;
     border-bottom-left-radius: 15px;
+    border: 3px solid red;
 
 }
 .contactame{
@@ -365,6 +365,9 @@ tr:hover .iconos-contactame{
     border-top-right-radius:15px;
     border-bottom-right-radius: 15px;
     padding: 60px;   
+    border: 2px solid orange;
+    margin:3% auto;
+    margin-right: 5%;
 }
 
 .escribime{
@@ -496,13 +499,114 @@ footer{
    
 } 
 @media (max-width: 768px){
-    
+
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boton{
+        margin: 0 auto;
+    }
+    .presentacion{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        padding-top: 50%;
+    }
+    .presentacion .nombre  {
+        font-size: 70px;
+    }
+
+    .presentacion h3 {
+        font-size: 30px;
+    }
+    .presentacion p{
+        font-size: 16px;
+    }
   
+    .imagenpresentacion{
+        margin: 0 auto;
+    }
 } 
 
 @media (max-width: 480px){
-   
-   
+
+    .presentacion{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 10px;
+        padding-top: 50%;
+        
+        
+    }
+    .presentacion .nombre  {
+        font-size: 70px;
+    }
+
+    .presentacion h3 {
+        font-size: 30px;
+    }
+    .presentacion p{
+        font-size: 16px;
+    }
+
+
+   .imagenpresentacion{
+       padding-top: 0%;
+       margin: 0 auto;
+       width: 330px;
+   }
+ 
+
+
+   .cajas {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+
+
+    .cajas2 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .caja-1{
+        padding:35%;
+        margin: 5%;
+        justify-content: center;
+    }
+
+    #contactame{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: transparent;
+    }
+    .columna1 .columna2{
+        padding: 20%;
+    }
+
+    .columna2{
+        margin: 0;
+    }
+
+    .menufooter{
+        display: inline;
+    }
+
+    .iconosfooter{
+        display: block;
+        
+    }
+    
 
 } 
 @media (max-width: 320px){
