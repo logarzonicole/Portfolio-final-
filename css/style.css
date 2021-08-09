@@ -490,33 +490,24 @@ footer{
     header {
         display: none;
     }
-    #inicio{
-        flex-direction: column;
-    }
-
-    #intro > div{
-        text-align: center;
-        width: 70%;
-    }
+    
     
 
    
 } 
 @media (max-width: 768px){
-    footer{
-        display: none;
-    }
-   
+    
   
 } 
+
 @media (max-width: 480px){
-    #cajapadre .titulo1{
-        background-color: #F5C6AA;
-        text-align: center;
-        width: 100%;
-    }
+   
+   
 
 } 
 @media (max-width: 320px){
-
+footer{
+        display: none;
+    }
+    
 }
