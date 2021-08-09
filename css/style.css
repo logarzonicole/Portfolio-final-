@@ -209,8 +209,8 @@ p{
 #frase{
     text-align: center;
     background-color:#CDBBA7;
-    padding:100px;
-    height: 100%;
+    padding-top:40px;
+    padding-bottom: 40px ;
     /*width: 85%;*/
 }
 .comilla{
@@ -307,7 +307,7 @@ p{
     text-align: left;
     background-color: #CDBBA7;
     max-width: 100%;
-    border: 1px solid blue;
+    
 }
 
 .iconos-contactame{
@@ -344,7 +344,6 @@ tr:hover .iconos-contactame{
     background-color: white;
     border-top-left-radius:15px;
     border-bottom-left-radius: 15px;
-    border: 3px solid red;
 
 }
 .contactame{
@@ -365,7 +364,6 @@ tr:hover .iconos-contactame{
     border-top-right-radius:15px;
     border-bottom-right-radius: 15px;
     padding: 60px;   
-    border: 2px solid orange;
     margin:3% auto;
     margin-right: 5%;
 }
@@ -494,6 +492,17 @@ footer{
         display: none;
     }
     
+    .columna1{
+        padding-right: 2%;
+        margin-left: 5%;
+    }
+    .columna2{
+        padding-right: 0%;
+    }
+
+    footer{
+        width: 81%;
+    }
     
 
    
@@ -504,6 +513,8 @@ footer{
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-top: 0%;
+        padding-top: 0%;
     }
 
     .boton{
@@ -515,7 +526,7 @@ footer{
         flex-direction: column;
         padding: 0;
         justify-content: center;
-        padding-top: 50%;
+        padding-top: 10%;
     }
     .presentacion .nombre  {
         font-size: 70px;
@@ -540,7 +551,7 @@ footer{
     }
 
     .columna1 {
-        width: 50%;
+        width: 60%;
         
     }
 
@@ -549,6 +560,9 @@ footer{
         margin-left: 35px;
         padding-right: 20%;
         
+    }
+    .escribime{
+        text-align: center;
     }
 
     footer{
@@ -564,7 +578,7 @@ footer{
         flex-direction: column;
         padding: 0;
         margin: 10px;
-        padding-top: 50%;
+        padding-top: 20%;
         
         
     }
@@ -582,6 +596,7 @@ footer{
 
    .imagenpresentacion{
        padding-top: 0%;
+       margin-top: 0;
        margin: 0 auto;
        width: 330px;
    }
@@ -604,7 +619,15 @@ footer{
     .caja-1{
         padding:35%;
         margin: 5%;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+
+    .caja-1 img{
+        display: flex;
+        align-items: center;
     }
 
     #contactame{
@@ -616,13 +639,38 @@ footer{
     .columna1 .columna2{
         padding: 20%;
     }
+    
+    .columna1{
+        padding-left: 10% ;
+    }
 
     .columna2{
-        margin: 0;
+        margin: 5%;
+    }
+    input[type="text"]{
+        width: 90%;
+
+    }
+    
+    .input-apellidos{
+        margin-left: 15%;
+    }
+
+    .apellidoformulario > label{
+        margin-left: 15%;
+    }
+
+    .mensajes{
+        width: 50%;
+        
+    }
+    
+    footer{
+        width: 58%;
     }
 
     .menufooter{
-        display: inline;
+        display: none;
     }
 
     .iconosfooter{
@@ -633,6 +681,32 @@ footer{
 
 } 
 @media (max-width: 320px){
+
+    .imagenpresentacion{
+        width: 300px; 
+    }
+
+    
+
+   textarea{
+       margin-right: 5%;
+   }
+
+    .contactame, .escribime{
+        font-size: 25px;
+    }
+
+    .contactame{
+        padding-bottom: 0;
+    }
+    .escribime{
+        margin-top: 0%;
+    }
+
+    table tr td{
+        font-size: 50px;
+    }
+
 footer{
         display: none;
     }
