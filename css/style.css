@@ -306,7 +306,6 @@ p{
 #contactame{
 
     display: flex;
-    
     padding: 100px;
     text-align: left;
     background-color: #CDBBA7;
@@ -344,7 +343,8 @@ tr:hover .iconos-contactame{
     margin:0 auto;
     padding: 100px ;
     background-color: white;
-    border-radius: 10px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
 
 }
 .contactame{
@@ -362,7 +362,8 @@ tr:hover .iconos-contactame{
 .columna2{
     background-color: white;
     width:100%;
-    border-radius: 10px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
     padding: 60px;   
 }
 
@@ -374,12 +375,11 @@ tr:hover .iconos-contactame{
     font-family: 'STIX Two Math', serif;
 }
 
-.label-size{
+label{
     font-size: 20px;
-    padding-bottom: 0;
-    
 
 }
+
 
 .nameandlastname{
     display: flex;
@@ -394,26 +394,31 @@ tr:hover .iconos-contactame{
 }
 
 
-.input-nombres{
+input[type="text"]{
+    
     border-radius: 30px;
     padding: 8px;
     width: 170px;
     border:1px solid #efef;
     background-color: #ededed;
+    margin-bottom: 20px;
 }
 
-.input-apellidos{
+input[type="text"]{
     border-radius: 30px;
     padding: 8px;
     border:1px solid #efef;
     background-color: #ededed;
+    margin-bottom: 20px;
 }
 
-.input-email{
+input[type="email"]{
     border-radius: 30px;
     padding: 8px 8px 8px  8px;
     border:1px solid #efef;
     background-color: #ededed;
+    margin-bottom: 20px;
+    width: 90%;
 
 }
 
@@ -432,7 +437,7 @@ input:focus, textarea:focus{
 }
 
 
-.btn{
+input[type="submit"]{
     width: 130px;
     padding: 20px;
     border-radius:30px;
