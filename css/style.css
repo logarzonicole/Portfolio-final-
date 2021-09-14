@@ -117,6 +117,7 @@ p{
     justify-content: center;
     padding-bottom: 6rem;
     margin-top: 10rem;
+    margin-left: 7rem;
     background-color: white;
     
     
@@ -199,6 +200,10 @@ p{
     color:gray;
     border: 1px solid grey;
     
+}
+.rosa{
+    color: #C13A5D;
+    margin-top: 20px;
 }
 /******************************************FIN DE CONOCIMIENTOS************************************/
 
