@@ -93,8 +93,7 @@ a:hover{
 }
 
  .nombre{
-    
-    font-size: 60px;
+    font-size: 95px;
     font-family: 'Bungee Shade', cursive;
     color: #FFB1D6;
     
@@ -102,7 +101,7 @@ a:hover{
 
 h3{
     font-size: 30px;
-    
+    margin-bottom: 5px;
     color: #FF8FC1;
 }
 p{
@@ -447,12 +446,7 @@ input:focus, textarea:focus{
     background-color: #C13A5D;
    font-size: 1rem;
 }*/
-body {
-    font-size: 16px;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    text-align: center;
-    background-color: #f8faff;
-}
+
 .bubbly-button {
     font-family: 'Helvetica', 'Arial', sans-serif;
     display: inline-block;
@@ -582,7 +576,10 @@ footer{
 
 /******************************************FIN DE FOOTER************************************/
 
-
+@media(max-width: 2323px){
+    /*medias por seguir*/
+    
+}
     
 @media (max-width: 1024px){
     header {
