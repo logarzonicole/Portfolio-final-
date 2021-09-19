@@ -318,8 +318,8 @@ p{
 
 
 tr:hover .iconos-contactame{
-    color: black;
-    background-color: hotpink ;
+    color: #C13A5D;
+    /*background-color: hotpink ;*/
     border-radius: 50%;
     margin: 20px;
 }
