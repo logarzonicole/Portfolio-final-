@@ -42,6 +42,7 @@ padding: 15px 10px;
 word-spacing: 15px;
 
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -104,6 +105,7 @@ h3{
     margin-bottom: 5px;
     color: #FF8FC1;
 }
+
 p{
     font-size: 20px;
     padding: 15px 0 15px 0;
@@ -330,6 +332,7 @@ tr:hover .iconos-contactame{
     color: black;
     
 }
+
 .socialmedia:hover{
     color: hotpink;
 }
@@ -345,6 +348,7 @@ tr:hover .iconos-contactame{
     border-bottom-left-radius: 15px;
 
 }
+
 .contactame{
     color: #C13A5D;
     font-size: 45px;
@@ -464,9 +468,11 @@ input:focus, textarea:focus{
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
     box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
 }
+
 .bubbly-button:focus {
     outline: 0;
 }
+
 .bubbly-button:before, .bubbly-button:after {
     position: absolute;
     content: '';
@@ -834,7 +840,7 @@ footer{
     }
     
 
-} 
+}
 
 @media (max-width: 320px){
 
@@ -863,7 +869,7 @@ footer{
         font-size: 50px;
     }
 
-footer{
+    footer{
         display: none;
     }
     
