@@ -116,7 +116,7 @@ p{
     justify-content: center;
     padding-bottom: 6rem;
     margin-top: 11rem;
-    margin-left: 7rem;
+    margin-left: 4rem;
     background-color: white;
     
     
@@ -584,6 +584,25 @@ footer{
     header {
         display: none;
     }
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+
+    .boton{
+        margin: 0 auto;
+    }
+    .presentacion{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        padding-top: 10%;
+    }
     
     .columna1{
         padding-right: 2%;
@@ -600,6 +619,33 @@ footer{
 
    
 } 
+
+@media (max-width: 1022px){
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+
+    .boton{
+        margin: 0 auto;
+    }
+    .presentacion{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        padding-top: 10%;
+    }
+
+    .imagenpresentacion{
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px){
 
     #inicio {
@@ -663,6 +709,21 @@ footer{
     }
 } 
 
+@media (max-width: 534px){
+
+    .imagenpresentacion{
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .cajas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+     }
+}
+
 @media (max-width: 480px){
 
     .presentacion{
@@ -691,7 +752,7 @@ footer{
        padding-top: 0%;
        margin-top: 0;
        margin: 0 auto;
-       width: 330px;
+       width: 400px;
    }
  
 
